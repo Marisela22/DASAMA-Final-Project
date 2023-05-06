@@ -5239,7 +5239,7 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 #map, .page_map {
-	height: 600px;
+	height: 510px;
 }
 
 #map img, .page_map img {
@@ -5252,7 +5252,7 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 #map .map_marker_description, .page_map .map_marker_description {
-	padding: 10px 5px 5px;
+	padding: 10px 5px 5px 10px;
 }
 
 #map .map_marker_icon, .page_map .map_marker_icon {

@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("MFeedAsyncClickLogger",["MRequest","Stratcom","destroyOnUnload","goURI"],(function(a,b,c,d,e,f){function a(a){a=a.getNode("log-click-async");var c={_ft_:a.getAttribute("data-ft"),__tn__:a.getAttribute("data-tn")},d=new(b("MRequest"))("/mtouch/feed/log/"),e=a.getAttribute("data-hrefTarget"),f=!1;a=function(a){e&&!f&&(f=!0,b("goURI")(e))};d.setData(c);d.setAutoRetry(!0);d.setMethod("POST");d.listen("finally",a);d.send();window.setTimeout(a,1e3)}var g=b("Stratcom").listen("click","log-click-async",a);b("destroyOnUnload")(function(){g.remove()});e.exports={logOnClick:a}}),null);

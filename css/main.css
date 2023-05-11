@@ -1805,6 +1805,12 @@ header [class*="col-"] {
 	margin-right: 0;
 }
 
+.row{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
 .table_section [class*="col-"] {
 	display: table-cell;
 	vertical-align: middle;
@@ -2087,6 +2093,9 @@ header [class*="col-"] {
 	display: none;
 }
 
+.picture{
+	height: 460px;
+}
 .preloader_image {
 	width: 100px;
 	height: 100px;
@@ -4096,6 +4105,10 @@ body.boxed {
 
 .ds .day-date {
 	color: #ffffff;
+}
+
+.checked {
+	color: orange;
 }
 
 .ds .week-row,

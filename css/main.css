@@ -832,12 +832,12 @@ p + .progress {
 	transition: width 0.2s linear 0s, height 0.2s linear 0.2s;
 }
 
-.vertical-tabs .nav li.active .item-content:after {
+/* .vertical-tabs .nav li.active .item-content:after {
 	right: -74px;
 	width: 90px;
 	-webkit-transition: all 0.2s linear 0.2s;
 	transition: all 0.2s linear 0.2s;
-}
+} */
 
 @media (min-width: 768px) {
 	.vertical-tabs .nav > li.active {
@@ -11730,6 +11730,7 @@ isotope portfolio and gallery pos
 
 /*switcher styles*/
 #switcher {
+	display: none;
 	position: fixed;
 	top: 22%;
 	right: -200px;

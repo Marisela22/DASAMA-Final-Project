@@ -1436,6 +1436,9 @@ p > [class*="rt-icon"] {
 .section_padding_0 > [class*="container"] {
 	padding-top: 0;
 	padding-bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .section_padding_15 > [class*="container"] {
@@ -3105,6 +3108,7 @@ body.boxed {
 	position: relative;
 	margin: -30px 10px 0;
 	z-index: 4;
+	border-radius:15px;
 }
 
 @media (min-width: 992px) {
@@ -3192,6 +3196,8 @@ body.boxed {
 .item-media {
 	position: relative;
 	overflow: hidden;
+	border-radius: 25px;
+	box-shadow: -5px 10px 10px 1px #888888;
 }
 
 .item-media img {
@@ -5147,6 +5153,9 @@ body.active-side-header.slide-right .page_header_side {
 
 .page_portfolio {
 	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .section_subscribe .form-control {
@@ -11698,6 +11707,10 @@ isotope portfolio and gallery pos
 .isotope_container {
 	-webkit-transition: height 0.2s ease-in-out 0s;
 	transition: height 0.2s ease-in-out 0s;
+	position: relative;
+	left: 300px;
+	
+	
 }
 
 .columns_padding_0 .isotope_container {

@@ -1,313 +1,295 @@
 <!DOCTYPE html>
 <html class="no-js">
-<head>
-	<title>CarRepair</title>
-	<meta charset="utf-8">
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <title>CarRepair</title>
+    <meta charset="utf-8" />
+    <!--[if IE]>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <![endif]-->
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/main.css" id="color-switcher-link">
-	<link rel="stylesheet" href="css/animations.css">
-	<link rel="stylesheet" href="css/fonts.css">
-	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-</head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" id="color-switcher-link" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
-<body>
-	
-	<div class="preloader">
-		<div class="preloader_image"></div>
-	</div>
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.min.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+      <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <![endif]-->
+  </head>
 
+  <body>
+    
 
-	<!-- search modal -->
-	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
-		<div class="widget widget_search">
-			<form method="get" class="searchform form-inline" action="https://html.modernwebtemplates.com/">
-				<div class="form-group">
-					<input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input">
-				</div>
-				<button type="submit">Search</button>
-			</form>
-		</div>
-	</div>
+        <header
+          class="page_header header_darkgrey ms template_header transparent_header table_section table_section_md left_menu_toggle"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-9 col-md-8">
+                <!-- main nav start -->
+                <nav class="mainmenu_wrapper">
+                  <ul class="mainmenu nav sf-menu">
+                    <li class="active">
+                      <a href="index-2.html">Home</a>
+                    </li>
+                    <li>
+                      <a href="services.html">Services</a>
+                    </li>
+                    <li>
+                      <a href="appointment.html">Booking</a>
+                    </li>
+                    <li>
+                      <a href="team.html">Staff</a>
+                    </li>
+                    <li>
+                      <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                      <a href="#" class="search_modal_button">
+                        <i class="flaticon-magnifying-glass"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+                <!-- eof main nav -->
+              </div>
+              <div class="col-lg-3 col-mg-4 text-right line-height-0">
+                <span class="toggle_menu">
+                  <span></span>
+                </span>
+                <p>
+                  <a href="appointment.html" class="theme_button inverse"
+                    >Make appointment</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </header>
 
-	<!-- wrappers for visual page editor and boxed version of template -->
-	<div id="canvas" class="dark">
-		<div id="box_wrapper">
+        <section class="page_breadcrumbs template_breadcrumbs ds parallax">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 text-center">
+                <h1>Staff</h1>
+              </div>
+            </div>
+          </div>
+        </section>
 
-			<!-- template sections -->
-			<header class="page_header header_darkgrey ms template_header transparent_header table_section table_section_md left_menu_toggle">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-9 col-md-8">
-							<!-- main nav start -->
-							<nav class="mainmenu_wrapper">
-								<ul class="mainmenu nav sf-menu">
-									<li class="active">
-										<a href="index.html">Home</a>
-									</li>
-									<li>
-										<a href="services.html">Services</a>
-									</li>
-									<li>
-										<a href="appointment.html">Booking</a>
-									</li>
-									<li>
-										<a href="team.html">Staff</a>
-									</li>
-									<li>
-										<a href="contact.html">Contact</a>
-									</li>
-									<li>
-										<a href="#" class="search_modal_button">
-											<i class="flaticon-magnifying-glass"></i>
-										</a>
-									</li>
-								</ul>
-							</nav>
-							<!-- eof main nav -->
-						</div>
-						<div class="col-lg-3 col-mg-4 text-right line-height-0">
-							<span class="toggle_menu">
-								<span></span>
-							</span>
-							<p>
-								<a href="appointment.html" class="theme_button inverse">Make appointment</a>
-							</p>
-						</div>
-					</div>
-				</div>
-			</header>
+        <section
+          class="ds page_portfolio section_padding_top_120 section_padding_bottom_50 columns_margin_bottom_60"
+        >
+          <div class="container">
+            <div
+              class="isotope_container staff isotope row masonry-layout"
+              data-filters=".isotope_filters"
+            >
+            <div class="isotope-item col-lg-3 col-md-4 col-sm-6 photography">
+              <div
+                class="vertical-item content-padding content-overlapping text-center"
+              >
+                <div class="item-media">
+                  <img src="images/team/mech1.jpg" alt=""/>
+                </div>
+                <div class="item-content with_background with_border">
+                  <h4 class="text-uppercase">
+                    <a href="#">Carl</a>
+                  </h4>
+                  <p>Owner</p>
+                </div>
+              </div>
+            </div>
 
-			<section class="page_breadcrumbs template_breadcrumbs ds parallax">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12 text-center">
-							<h1>Staff</h1>
-						</div>
-					</div>
-				</div>
-			</section>
+              <div class="isotope-item col-lg-3 col-md-4 col-sm-6 photography">
+                <div
+                  class="vertical-item content-padding content-overlapping text-center"
+                >
+                  <div class="item-media">
+                    <img src="images/team/mech2.jpg" alt="" />
+                  </div>
+                  <div class="item-content with_background with_border">
+                    <h4 class="text-uppercase">
+                      <a href="#">Dave</a>
+                    </h4>
+                    <p>Owner</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
 
-			<section class="ds page_portfolio section_padding_top_120 section_padding_bottom_50 columns_margin_bottom_60">
-				<div class="container">
-					<div class="isotope_container isotope row masonry-layout" data-filters=".isotope_filters">
+            <div class="isotope-item col-lg-3 col-md-4 col-sm-6 photography">
+              <div
+                class="vertical-item content-padding content-overlapping text-center"
+              >
+                <div class="item-media">
+                  <img src="images/team/mech3.jpg" alt="" />
+                </div>
+                <div class="item-content with_background with_border">
+                  <h4 class="text-uppercase">
+                    <a href="#">Tyler Valdez</a>
+                  </h4>
+                  <p>Tire Expert</p>
+                </div>
+              </div>
+            </div>
 
-						<div class="isotope-item col-lg-3 col-md-4 col-sm-6 photography">
-							<div class="vertical-item content-padding content-overlapping text-center">
-								<div class="item-media">
-									<img src="images/team/01.jpg" alt="">
-								</div>
-								<div class="item-content with_background with_border">
-									<h4 class="text-uppercase">
-										<a href="#">Tyler Valdez</a>
-									</h4>
-									<p>Developer</p>
-								</div>
-							</div>
-						</div>
+            <div class="isotope-item col-lg-3 col-md-4 col-sm-6 photography">
+              <div
+                class="vertical-item content-padding content-overlapping text-center"
+              >
+                <div class="item-media">
+                  <img src="images/team/mech4.jpg" alt="" />
+                </div>
+                <div class="item-content with_background with_border">
+                  <h4 class="text-uppercase">
+                    <a href="#">Harry Cummings</a>
+                  </h4>
+                  <p>Lube Tech</p>
+                </div>
+              </div>
+            </div>
 
-						<div class="isotope-item col-lg-3 col-md-4 col-sm-6 photography">
-							<div class="vertical-item content-padding content-overlapping text-center">
-								<div class="item-media">
-									<img src="images/team/02.jpg" alt="">
-								</div>
-								<div class="item-content with_background with_border">
-									<h4 class="text-uppercase">
-										<a href="#">Margaret Silva</a>
-									</h4>
-									<p>Engineer</p>
-								</div>
-							</div>
-						</div>
+            <div class="isotope-item col-lg-3 col-md-4 col-sm-6 photography">
+              <div
+                class="vertical-item content-padding content-overlapping text-center"
+              >
+                <div class="item-media">
+                  <img src="images/team/mech5.jpg" alt="" />
+                </div>
+                <div class="item-content with_background with_border">
+                  <h4 class="text-uppercase">
+                    <a href="#">Alan McGuire</a>
+                  </h4>
+                  <p> Diesel Mechanic</p>
+                </div>
+              </div>
+            </div>
 
-						<div class="isotope-item col-lg-3 col-md-4 col-sm-6 photography">
-							<div class="vertical-item content-padding content-overlapping text-center">
-								<div class="item-media">
-									<img src="images/team/03.jpg" alt="">
-								</div>
-								<div class="item-content with_background with_border">
-									<h4 class="text-uppercase">
-										<a href="#">Harry Cummings</a>
-									</h4>
-									<p>Developer</p>
-								</div>
-							</div>
-						</div>
+            <div class="isotope-item col-lg-3 col-md-4 col-sm-6 photography">
+              <div
+                class="vertical-item content-padding content-overlapping text-center"
+              >
+                <div class="item-media">
+                  <img src="images/team/mech6.jpg" alt="" />
+                </div>
+                <div class="item-content with_background with_border">
+                  <h4 class="text-uppercase">
+                    <a href="#">Ian Hernandez</a>
+                  </h4>
+                  <p>Mechanic</p>
+                </div>
+              </div>
+            </div>
 
-						<div class="isotope-item col-lg-3 col-md-4 col-sm-6 photography">
-							<div class="vertical-item content-padding content-overlapping text-center">
-								<div class="item-media">
-									<img src="images/team/04.jpg" alt="">
-								</div>
-								<div class="item-content with_background with_border">
-									<h4 class="text-uppercase">
-										<a href="#">Alan McGuire</a>
-									</h4>
-									<p>Engineer</p>
-								</div>
-							</div>
-						</div>
+            <!-- eof .isotope_container.row -->
+          </div>
+        </section>
+        <footer
+          class="page_footer ds color section_padding_top_85 section_padding_bottom_40 columns_margin_bottom_30"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 to_animate" data-animation="fadeInUp">
+                <h4 class="widget-title">Useful links</h4>
+                <hr
+                  class="divider_2_30 main_bg_color topmargin_10 bottommargin_20"
+                />
+                <div
+                  class="row grey-color-links fontsize_16 columns_margin_bottom_10"
+                >
+                  <div class="col-xs-6">
+                    <ul class="list2 no-bullets margin_0">
+                      <li>
+                        <a href="about.html">About us</a>
+                      </li>
+                      <li>
+                        <a href="services.html">Services</a>
+                      </li>
+                      <li>
+                        <a href="team.html">Staff</a>
+                      </li>
+                      <li>
+                        <a href="appointment.html">Booking</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-xs-6">
+                    <ul class="list2 no-bullets margin_0"></ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 to_animate" data-animation="fadeInUp">
+                <div class="widget widget_instagram">
+                  <h4 class="widget-title">
+                    <a href="contact.html">Contact Us</a>
+                  </h4>
+                  <hr
+                    class="divider_2_30 main_bg_color topmargin_10 bottommargin_30"
+                  />
+                  <p>
+                    <b>Phone:</b> (608) 251-0775 <br />
+                    <b>Email:</b> psgarage@outlook.com <br />
 
-						<div class="isotope-item col-lg-3 col-md-4 col-sm-6 photography">
-							<div class="vertical-item content-padding content-overlapping text-center">
-								<div class="item-media">
-									<img src="images/team/05.jpg" alt="">
-								</div>
-								<div class="item-content with_background with_border">
-									<h4 class="text-uppercase">
-										<a href="#">Charlie Stewart</a>
-									</h4>
-									<p>Administrator</p>
-								</div>
-							</div>
-						</div>
+                    <b>Regular Hours:</b>
+                    Mon - Fri 8:00 am - 5:30 pm<br />
 
-						<div class="isotope-item col-lg-3 col-md-4 col-sm-6 photography">
-							<div class="vertical-item content-padding content-overlapping text-center">
-								<div class="item-media">
-									<img src="images/team/06.jpg" alt="">
-								</div>
-								<div class="item-content with_background with_border">
-									<h4 class="text-uppercase">
-										<a href="#">Ian Hernandez</a>
-									</h4>
-									<p>Engineer</p>
-								</div>
-							</div>
-						</div>
+                    <b>Address:</b>
 
-						<div class="isotope-item col-lg-3 col-md-4 col-sm-6 photography">
-							<div class="vertical-item content-padding content-overlapping text-center">
-								<div class="item-media">
-									<img src="images/team/07.jpg" alt="">
-								</div>
-								<div class="item-content with_background with_border">
-									<h4 class="text-uppercase">
-										<a href="#">Emilie Day</a>
-									</h4>
-									<p>Tuning Designer</p>
-								</div>
-							</div>
-						</div>
+                    2116 S Park St Madison, WI 53713
+                  </p>
 
-						<div class="isotope-item col-lg-3 col-md-4 col-sm-6 photography">
-							<div class="vertical-item content-padding content-overlapping text-center">
-								<div class="item-media">
-									<img src="images/team/08.jpg" alt="">
-								</div>
-								<div class="item-content with_background with_border">
-									<h4 class="text-uppercase">
-										<a href="#">Pauline Fisher</a>
-									</h4>
-									<p>Manager</p>
-								</div>
-							</div>
-						</div>
+                  <div class="instafeed"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
 
-					</div>
-					<!-- eof .isotope_container.row -->
-				</div>
-			</section>
+        <section
+          class="page_copyright ds color table_section section_padding_top_20 section_padding_bottom_100"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 text-center text-sm-left">
+                <p>
+                  &copy; Park St. Garage 2023 | Created with
+                  <i class="fa fa-heart-o highlight"></i> by
+                  <a href="http://modernwebtemplates.com/">YWEB-DASAMA GROUP</a>
+                </p>
+              </div>
+              <div
+                class="col-sm-6 text-center text-sm-right to_animate"
+                data-animation="scaleAppear"
+              >
+                <div class="page_social_icons greylinks">
+                  <!-- <a href="#" class="social-icon border-icon soc-facebook"></a>
+                                <a href="#" class="social-icon border-icon soc-twitter"></a> -->
+                  <a href="#" class="social-icon border-icon soc-skype"></a>
+                  <!-- <a href="#" class="social-icon border-icon soc-linkedin"></a> -->
+                  <a href="#" class="social-icon border-icon soc-google"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- eof #box_wrapper -->
+    </div>
+    <!-- eof #canvas -->
 
-			<footer class="page_footer ds color section_padding_top_85 section_padding_bottom_40 columns_margin_bottom_30">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-4 to_animate" data-animation="fadeInUp">
-							<h4 class="widget-title">Newsletter</h4>
-							<hr class="divider_2_30 main_bg_color topmargin_10 bottommargin_25">
-							<form class="signup" action="https://html.modernwebtemplates.com/" method="get">
-								<div class="form-group">
-									<input name="email" type="email" class="mailchimp_email form-control" placeholder="Enter your e-mail address">
-								</div>
-								<div class="response"></div>
-								<button type="submit" class="theme_button small_button topmargin_15">Subscribe</button>
-							</form>
-						</div>
-						<div class="col-md-4 to_animate" data-animation="fadeInUp">
-							<h4 class="widget-title">Useful links</h4>
-							<hr class="divider_2_30 main_bg_color topmargin_10 bottommargin_20">
-							<div class="row grey-color-links fontsize_16 columns_margin_bottom_10">
-								<div class="col-xs-6">
-									<ul class="list2 no-bullets margin_0">
-										<li>
-											<a href="index-2.html">Home</a>
-										</li>
-										<li>
-											<a href="about.html">About us</a>
-										</li>
-										<li>
-											<a href="services.html">Services</a>
-										</li>
-									</ul>
-								</div>
-								<div class="col-xs-6">
-									<ul class="list2 no-bullets margin_0">
-										<li>
-											<a href="team.html">Staff</a>
-										</li>
-										<li>
-											<a href="appointment.html">Booking</a>
-										</li>
-										<li>
-											<a href="contact.html">Contacts</a>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 to_animate" data-animation="fadeInUp">
-							<div class="widget widget_instagram">
-								<h4 class="widget-title">Contact</h4>
-								<hr class="divider_2_30 main_bg_color topmargin_10 bottommargin_30">
-								<div class="col-xs-6">
-									<ul class="list2 no-bullets margin_0">
-										<li>psgarage@outlook.com</li>
-										<li> 608-251-0775</li>
-										<br>	
-										<li>Regular Hours</li>
-										<li>Monday - Friday</li>
-										<li>8:00 AM - 5:30 PM</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</footer>
+    <script src="js/compressed.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/switcher.js"></script>
+  </body>
 
-			<section class="page_copyright ds color table_section section_padding_top_20 section_padding_bottom_100">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-6 text-center text-sm-left">
-							<p>&copy; Park St Garage 2023 | Created by
-								<i class="fa fa-heart-o highlight"></i> DASAMA
-							</p>
-						</div>
-						<div class="col-sm-6 text-center text-sm-right to_animate" data-animation="scaleAppear">
-							<div class="page_social_icons greylinks">
-								<a href="#" class="social-icon border-icon soc-facebook"></a>
-								<a href="#" class="social-icon border-icon soc-linkedin"></a>
-								<a href="#" class="social-icon border-icon soc-google"></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-		</div>
-		<!-- eof #box_wrapper -->
-	</div>
-	<!-- eof #canvas -->
-
-	<script src="js/compressed.js"></script>
-	<script src="js/main.js"></script>
-	<script src="js/switcher.js"></script>
-
-</body>
-
-
-<!-- Mirrored from html.modernwebtemplates.com/carrepair/team.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 May 2023 19:24:56 GMT -->
+  <!-- Mirrored from html.modernwebtemplates.com/carrepair/team.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 May 2023 19:24:56 GMT -->
 </html>

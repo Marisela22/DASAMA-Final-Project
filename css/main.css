@@ -3198,10 +3198,12 @@ body.boxed {
 	overflow: hidden;
 	border-radius: 25px;
 	box-shadow: -5px 10px 10px 1px #888888;
+	height: 350px;
 }
 
 .item-media img {
 	width: 100%;
+	height: 100%;
 }
 
 .media-links {
@@ -11704,7 +11706,7 @@ isotope portfolio and gallery pos
 	}
 }
 
-.isotope_container {
+.isotope_container.staff {
 	-webkit-transition: height 0.2s ease-in-out 0s;
 	transition: height 0.2s ease-in-out 0s;
 	position: relative;

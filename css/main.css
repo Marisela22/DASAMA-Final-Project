@@ -8207,6 +8207,9 @@ aside .widget_tag_cloud a:hover {
 .row.video-tabs {
 	table-layout: fixed;
 }
+.embed-responsive-item:hover{
+	z-index: 10;
+}
 
 @media (min-width: 992px) {
 	.row.video-tabs .col-md-8 .tab-content {

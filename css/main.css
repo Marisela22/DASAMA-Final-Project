@@ -832,12 +832,12 @@ p + .progress {
 	transition: width 0.2s linear 0s, height 0.2s linear 0.2s;
 }
 
-/* .vertical-tabs .nav li.active .item-content:after {
+.vertical-tabs .nav li.active .item-content:after {
 	right: -74px;
 	width: 90px;
 	-webkit-transition: all 0.2s linear 0.2s;
 	transition: all 0.2s linear 0.2s;
-} */
+}
 
 @media (min-width: 768px) {
 	.vertical-tabs .nav > li.active {
@@ -1436,6 +1436,9 @@ p > [class*="rt-icon"] {
 .section_padding_0 > [class*="container"] {
 	padding-top: 0;
 	padding-bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .section_padding_15 > [class*="container"] {
@@ -1805,12 +1808,6 @@ header [class*="col-"] {
 	margin-right: 0;
 }
 
-.row{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
-
 .table_section [class*="col-"] {
 	display: table-cell;
 	vertical-align: middle;
@@ -2093,9 +2090,6 @@ header [class*="col-"] {
 	display: none;
 }
 
-.picture{
-	height: 460px;
-}
 .preloader_image {
 	width: 100px;
 	height: 100px;
@@ -3114,6 +3108,7 @@ body.boxed {
 	position: relative;
 	margin: -30px 10px 0;
 	z-index: 4;
+	border-radius:15px;
 }
 
 @media (min-width: 992px) {
@@ -3201,10 +3196,14 @@ body.boxed {
 .item-media {
 	position: relative;
 	overflow: hidden;
+	border-radius: 25px;
+	box-shadow: -5px 10px 10px 1px #888888;
+	height: 350px;
 }
 
 .item-media img {
 	width: 100%;
+	height: 100%;
 }
 
 .media-links {
@@ -4105,10 +4104,6 @@ body.boxed {
 
 .ds .day-date {
 	color: #ffffff;
-}
-
-.checked {
-	color: orange;
 }
 
 .ds .week-row,
@@ -5160,6 +5155,9 @@ body.active-side-header.slide-right .page_header_side {
 
 .page_portfolio {
 	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .section_subscribe .form-control {
@@ -5252,7 +5250,7 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 #map, .page_map {
-	height: 470px;
+	height: 600px;
 }
 
 #map img, .page_map img {
@@ -5265,7 +5263,7 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 #map .map_marker_description, .page_map .map_marker_description {
-	padding: 10px 5px 5px 10px;
+	padding: 10px 5px 5px;
 }
 
 #map .map_marker_icon, .page_map .map_marker_icon {
@@ -8207,8 +8205,9 @@ aside .widget_tag_cloud a:hover {
 .row.video-tabs {
 	table-layout: fixed;
 }
+
 .embed-responsive-item:hover{
-	z-index: 10;
+	z-index:10;
 }
 
 @media (min-width: 992px) {
@@ -11711,9 +11710,13 @@ isotope portfolio and gallery pos
 	}
 }
 
-.isotope_container {
+.isotope_container.staff {
 	-webkit-transition: height 0.2s ease-in-out 0s;
 	transition: height 0.2s ease-in-out 0s;
+	position: relative;
+	left: 300px;
+	
+	
 }
 
 .columns_padding_0 .isotope_container {
@@ -11733,7 +11736,6 @@ isotope portfolio and gallery pos
 
 /*switcher styles*/
 #switcher {
-	display: none;
 	position: fixed;
 	top: 22%;
 	right: -200px;

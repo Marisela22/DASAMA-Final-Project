@@ -924,8 +924,29 @@ li.media:after {
 }
 
 .embed-responsive-3by2 {
-	padding-bottom: 66.666%;
+	padding-bottom: 60.666%;
+	
 }
+
+.video1{
+	background-image: url(../images/Par\ St\ Garage\ orignal\ picture1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.video2{
+	background-image: url(../images/STATE.ST.PICTURE2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.video3{
+	background-image: url(../images/STATE.ST.PICTURE3.jpg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
 
 .embed-placeholder:before {
 	-webkit-transition: all 0.2s ease-in-out 0s;

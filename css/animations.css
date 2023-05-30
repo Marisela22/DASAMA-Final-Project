@@ -43,6 +43,7 @@ slideDown
 		transform: translateY(-4%);
 	}
 	80%{
+		
 		transform: translateY(4%);
 	}
 	95%{
